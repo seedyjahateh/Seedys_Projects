@@ -1,6 +1,5 @@
 ######################################################################
-# Author: Seedy Jahateh, Nega B. Demeke
-# Username: jahatehs, demeked
+# Author: Seedy Jahateh
 #
 # PAINT APP
 #
@@ -8,7 +7,6 @@
 # ######################################################################
 # Acknowledgements:
 #
-#   This code is adapted from https://www.youtube.com/watch?v=uIQFFAIF5FQ&list=PLq3W9_zb6kl6dCSPbTsFM0Y7_Woy8nh_B&index=1&pp=gAQBiAQB
 #
 # licensed under a Creative Commons
 # Attribution-Noncommercial-Share Alike 3.0 United States License.
@@ -16,11 +14,7 @@
 
 from tkinter import *
 from tkinter import filedialog, messagebox, colorchooser
-
 from PIL import ImageGrab
-
-
-# Colors
 
 
 class PaintApp(Tk):
